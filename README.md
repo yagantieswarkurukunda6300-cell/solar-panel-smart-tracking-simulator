@@ -99,5 +99,16 @@ The simulator calculates the required tracking angle, rotates a virtual solar pa
           ┌────────────────────┐
           │    LIVE GRAPH      │
           └────────────────────┘
+---
+
+## 🧠 CORE LOGIC
+
+The simulator converts the Sun's position into a corresponding panel orientation.
+
+### 📐 Tracking Angle
+
+```text
+Tracking Angle = (Sun Position - 50) × 1.2
+
 
 
