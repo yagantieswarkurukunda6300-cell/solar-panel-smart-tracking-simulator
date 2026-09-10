@@ -57,4 +57,47 @@ The simulator calculates the required tracking angle, rotates a virtual solar pa
 - 📊 Compare tracking-panel and fixed-panel performance
 - 📈 Visualize power variation using an interactive graph
 - 💻 Connect Electrical Engineering concepts with modern web technology
+---
+
+## ⚙️ HOW THE SYSTEM WORKS
+
+```text
+                    ☀️
+                SUN POSITION
+                     │
+                     ▼
+          ┌────────────────────┐
+          │  SIMULATION INPUT  │
+          └──────────┬─────────┘
+                     │
+                     ▼
+          ┌────────────────────┐
+          │ ANGLE CALCULATION  │
+          └──────────┬─────────┘
+                     │
+                     ▼
+          ┌────────────────────┐
+          │   PANEL ROTATION   │
+          └──────────┬─────────┘
+                     │
+                     ▼
+          ┌────────────────────┐
+          │  POWER ESTIMATION  │
+          └──────────┬─────────┘
+                     │
+                     ▼
+          ┌────────────────────┐
+          │   STATUS CHECK     │
+          └──────────┬─────────┘
+                     │
+                     ▼
+          ┌────────────────────┐
+          │ TRACKING vs FIXED  │
+          └──────────┬─────────┘
+                     │
+                     ▼
+          ┌────────────────────┐
+          │    LIVE GRAPH      │
+          └────────────────────┘
+
 
